@@ -8,7 +8,7 @@ let clicks= 0
 // Arrancada inicial
 inicialitzarMatriu();
 renderitzar();
-
+// Funció per començar el joc
 function inicialitzarMatriu() {
     for (let i = 0; i < mida; i++) {
         matriu[i] = [];
